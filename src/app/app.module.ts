@@ -7,6 +7,11 @@ import { IntroComponent } from './intro/intro.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { LoadingComponent } from './loading/loading.component';
+import { ErrorComponent } from './error/error.component';
+import { FeedsComponent } from './feeds/feeds.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { FooterComponent } from './footer/footer.component';
     IntroComponent,
     HeaderComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    SignupComponent,
+    LoadingComponent,
+    ErrorComponent,
+    FeedsComponent
   ],
   imports: [
     BrowserModule,
