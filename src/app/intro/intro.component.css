@@ -1,0 +1,30 @@
+/* INTRO */
+.intro { text-align: center; }
+
+.intro-text h1
+{
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 64px;
+    margin-bottom: 72px;
+    margin-top: 72px;
+    color: #03103a;
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro img { width: 90%; }
+
+    .intro-text h1
+    {
+        padding: 2rem;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3.5rem;
+        line-height: 5rem;
+        margin-bottom: 72px;
+        margin-top: 72px;
+        color: #03103a;
+    }
+    .clearm {display: none;}
+}
+

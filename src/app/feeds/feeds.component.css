@@ -1,0 +1,97 @@
+.feeds { overflow:hidden!important; }
+.rhand
+{
+    width: 50rem;
+    position: absolute;
+    top: -9rem;
+    right: -20px;    
+}
+.lhand
+{
+    width: 50rem;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: -7rem;
+    left: -10px;    
+}
+.text3
+{
+    transform: translate(-200%,-400%);
+    position: absolute;
+    
+}
+button {
+    font-weight: 600;
+    letter-spacing: .01em;
+    background: #bb6bff;
+    border: 4px solid #03103b;
+    box-shadow: -6px 6px 0 #03103b;
+    border-radius: 8px!important;
+    text-align: center;
+    color: #03103b;
+    padding: 6px 25px;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+button:hover
+{
+    box-shadow: -3px 3px 0 #03103b!important;
+    transform: translate(-3px, 3px);
+
+}
+.button-active 
+{ 
+    box-shadow: 0px 0px 0 #03103b!important;
+    transform: translate(-6px, 6px);
+}
+.active-image { width:70rem!important; }
+
+.meme
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(105%,-50%);
+    transform: translate(105%,-50%);
+    text-align: center;
+    background-color: #002f3c;
+    border-radius: 5%;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.meme span img
+{
+    max-width: 5rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+.meme img { width:95%!important;}
+
+.name
+{
+    font-size: 2.8rem;
+    color:#ffc233 ;
+    
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .rhand
+    {
+        width: 20rem;
+        position: absolute;
+        top: -2rem;
+        right: 0rem;    
+        transform: rotate(-20deg);
+    }
+    .lhand
+    {
+        width: 20rem;
+        transform: rotate(150deg);
+        position: absolute;
+        bottom: 10rem;
+        left: -4rem;    
+    }
+    .active-image { width:35rem!important; }
+
+}

@@ -1,0 +1,27 @@
+/* FOOTER */
+footer a
+{
+  text-decoration: none;
+  color: #03103b!important;
+}
+
+footer div p a:hover { color: #03103b!important; }
+footer p { font-size: 2.5rem!important; }
+
+footer img
+{
+    transform: translateY(-3px);
+    max-width:2.8rem;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    footer p { font-size: 3rem!important;line-height: 5rem!important; }
+    
+    footer img
+    {
+        transform: translateY(-3px);
+        max-width:3rem;
+    }
+}
